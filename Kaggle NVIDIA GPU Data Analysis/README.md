@@ -1,12 +1,12 @@
 # NVIDIA GPU Synthetic Sales Analysis
 
-Exploratory data analysis of a synthetic NVIDIA GPU sales dataset, uncovering trends in revenue, pricing, customer segments and inventory health.
+Exploratory Data Analysis of a synthetic NVIDIA GPU sales dataset, uncovering trends in revenue, pricing, customer segments and inventory health.
 
 ## Overview
 
-This project analyzes a synthetic dataset of NVIDIA GPU sales transactions to answer practical business questions about pricing, revenue and customer behavior. It covers data cleaning, exploratory data analysis (EDA) and a set of business-focused investigations, such as which GPU family drives the most revenue, which sales channel gives the best return and whether bundles or longer warranties are worth offering.
+This project analyzes a synthetic dataset of NVIDIA GPU sales transactions to answer practical business questions about pricing, revenue and customer behavior. It covers Data Cleaning, Exploratory Data Analysis (EDA) and a set of business-focused investigations, such as which GPU family drives the most revenue, which sales channel gives the best return and whether bundles or longer warranties are worth offering.
 
-The notebook is written for anyone who wants a worked example of an end-to-end EDA workflow on sales data — from loading and validating a raw CSV to producing a summary dashboard of key metrics.
+The notebook is written for anyone who wants a worked example of an end-to-end EDA workflow on sales data, from loading and validating a raw CSV to producing a summary dashboard of key metrics.
 
 ## Key Features
 
@@ -95,8 +95,8 @@ Generate the summary dashboard (final cell of the notebook), which combines four
 
 ```
 .
-├── nvidia_gpu_synthetic_dataset.ipynb   # Main analysis notebook
-└── nvidia_gpu_sales_synthetic_2026.csv  # Dataset (not included - add separately)
+├── nvidia_gpu_synthetic_data_analysis.ipynb   # Main analysis notebook
+└── nvidia_gpu_sales_synthetic_2026.csv  # Dataset
 ```
 
 The notebook is organized into the following sections:
