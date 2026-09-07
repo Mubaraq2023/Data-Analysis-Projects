@@ -4,7 +4,7 @@ Exploratory Data Analysis of a salary dataset, uncovering pay trends across job 
 
 ## Overview
 
-This project is a Jupyter notebook that cleans and analyzes a salary dataset. It answers common business questions like which job roles and cities pay the most, whether company rating affects salary and which companies offer the highest pay. The goal is to turn raw salary records into clear, visual insights that can support hiring, compensation, or career decisions.
+This project is a Jupyter notebook that cleans and analyzes a salary dataset. It answers common business questions like which job roles and cities pay the most, whether company rating affects salary and which companies offer the highest pay. The goal is to turn raw salary records into clear, visual insights that can support hiring, compensation or career decisions.
 
 ## Key Features
 
@@ -105,7 +105,7 @@ No environment variables or config files are required. The only setup needed is 
 ```text
 .
 ├── salary_data_analysis.ipynb   # Main analysis notebook
-├── Salary_Dataset_DSL.csv       # Dataset (not included — add your own)
+├── Salary_Dataset_DSL.csv       # Dataset
 └── README.md
 ```
 
