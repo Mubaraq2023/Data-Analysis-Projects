@@ -10,10 +10,10 @@ The notebook is written for anyone who wants a worked example of an end-to-end E
 
 ## Key Features
 
-- **Data cleaning**: handles missing values, checks for duplicate records and fixes column data types (dates, categories, strings).
-- **Data validation**: cross-checks that `price_premium_pct` and `revenue_usd` match their expected calculated values.
-- **Univariate & bivariate analysis**: distribution plots for units sold, revenue and customer satisfaction; relationships between stock status, pricing and satisfaction.
-- **Business question deep-dives**, including:
+- **Data Cleaning**: handles missing values, checks for duplicate records and fixes column data types (dates, categories, strings).
+- **Data Validation**: cross-checks that `price_premium_pct` and `revenue_usd` match their expected calculated values.
+- **Univariate & Bivariate Analysis**: distribution plots for units sold, revenue and customer satisfaction; relationships between stock status, pricing and satisfaction.
+- **Business Questions Deep-dives**, including:
   - Which GPU family drives the most sales volume and revenue
   - Which sales channel gives the best revenue-per-unit return
   - Whether pricing above MSRP hurts customer satisfaction
@@ -23,8 +23,8 @@ The notebook is written for anyone who wants a worked example of an end-to-end E
   - Seasonal trends in monthly unit sales
   - Regional differences in pricing power
   - Whether warranty length affects price premium
-- **Correlation heatmap** across all numeric fields.
-- **Mini dashboard**: a single 2x2 summary figure combining the most important charts.
+- **Correlation Heatmap** across all numeric fields.
+- **Mini Dashboard**: a single 2x2 summary figure combining the most important charts.
 
 ## Tech Stack / Dependencies
 
@@ -33,9 +33,9 @@ The notebook is written for anyone who wants a worked example of an end-to-end E
 
 Libraries used:
 - `pandas` - Data Loading, Cleaning and Aggregation
-- `numpy` — Numerical Operations
-- `matplotlib` — Visualization
-- `seaborn` — Statistical Visualization
+- `numpy` - Numerical Operations
+- `matplotlib` - Visualization
+- `seaborn` - Statistical Visualization
 
 ## Installation / Setup
 
@@ -51,7 +51,7 @@ Libraries used:
 5. Launch Jupyter and open the notebook:
 
    ```bash
-   jupyter notebook nvidia_gpu_synthetic_dataset.ipynb
+   jupyter notebook nvidia_gpu_synthetic_data_analysis.ipynb
    ```
 
 6. Run all cells in order, from top to bottom.
@@ -105,9 +105,9 @@ The notebook is organized into the following sections:
 2. Load Dataset
 3. Basic Data Understanding
 4. Data Cleaning
-5. Data Analysis (univariate and bivariate)
+5. Data Analysis (Univariate and Bivariate)
 6. Business Questions (9 targeted analyses)
-7. Mini Dashboard (summary visualization)
+7. Mini Dashboard (Summary Visualization)
 
 ## Contributing
 
